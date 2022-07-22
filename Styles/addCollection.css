@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+ 
+}
+
+
+
+
+.nav-container {
+  margin: 0 auto;
+  width: 100%;
+  border-bottom: 2px solid red;
+}
+nav {
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  justify-content: left;
+  padding-top: 15px;
+  /* padding-bottom:10px; */
+  /* margin-bottom:10px; */
+  background-color:rgba(34, 34, 34, 0.6);
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+nav li {
+  float: left;
+  color: white;
+}
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding-right: 16px;
+  text-decoration: none;
+  /* font-family: "Rubik", sans-serif; */
+  font-size: medium;
+}
+
+.pageBackground{
+  background-color:rgba(34, 34, 34, 0.6);
+  width: 100vw;
+  height: 100vh;
+}
+
+.formCard{
+  margin: auto;
+  width: 40%;
+  color:white;
+  margin-top: -80px;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.pageImg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list{
+  margin-left:-30px;
+}

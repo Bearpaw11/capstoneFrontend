@@ -1,10 +1,7 @@
 let signup = document.getElementById("signup");
-signup.reset()
 signup.addEventListener("submit", (e) => {
   e.preventDefault()
-  
   console.log(e)
-  
   //regex to check if a vailid email was entered
   if(/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(e.target[0].value)){
     //check to see if password are equal
@@ -23,6 +20,4 @@ signup.addEventListener("submit", (e) => {
       e.target.reset();
       alert("You did not enter a valid email")
     }
-   
-  //send request with info
 })
