@@ -106,3 +106,61 @@ section {
   padding: 96px 0;
   background-color: #f7f7f7;
 }
+
+  .header-text {
+    font-size: medium;
+    margin-left: -100px;
+  }
+
+
+
+  h1 {
+    font-size: medium;
+    margin-left:-100px;
+  }
+
+  .btn-adj1 {
+    font-size: medium;
+  margin-right: 50px;
+    margin-left:-100px;
+  }
+
+
+
+
+
+@media screen and (max-width :1300px) {
+  .header-text {
+    font-size: medium;
+    margin-left: 35%;
+  }
+}
+
+@media screen and (max-width : 1300px) {
+  h1 {
+    font-size: large;
+    margin-left: 35%;
+  }
+}
+  
+@media screen and (max-width : 1300px) {
+  .btn-adj {
+    
+    margin-bottom:30px;
+    margin-left: 35%;
+  }
+}
+
+@media screen and (max-width : 1300px) {
+  .btn-adj1 {
+   
+    margin-bottom:30px;
+    margin-left: 35%;
+  }
+}
+@media screen and (max-width : 800px) {
+  header{background-image: 
+    url(../Images/TrackThat.png);
+    background-size: 40%;}
+
+}
