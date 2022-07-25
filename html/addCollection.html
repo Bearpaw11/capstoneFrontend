@@ -23,7 +23,7 @@
     <img class="pageImg"src="../Images/TrackThat.png" alt="logg" width="300" height="300">
     <div class="formCard">
       <h1>Add Record to collection</h1>
-      <form id="signup">
+      <form id="addCollection">
         <div class="mb-3">
           <label for="artist" class="form-label">Artist</label>
           <input type="text" class="form-control" id="artist">
@@ -36,8 +36,8 @@
           <ul class="list">
             <li class="bigfield">
               <select name ="Condition" id="Condition">
-                 <option value ="0" selected = "selected">Select Condition</option>
-                 <option value ="NewUnopened"> New-Unopened</option>
+                 <option value ="No Entry" selected = "selected">Select Condition</option>
+                 <option value ="Unopened"> Unopened</option>
                  <option value ="New">New</option>
                  <option value ="Used">Used</option>
               </select>
@@ -51,6 +51,6 @@
       </form>
     </div>
   </div>
-  
+  <script src="../Scripts/addCollection.js"></script>
 </body>
 </html>
