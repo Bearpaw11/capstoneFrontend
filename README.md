@@ -3,7 +3,7 @@ Track That Track
 This is the front end for my capstone project.
 This is built using CSS, Bootsrtap and Javascript
 
-This app was made for music lovers that are looking for a place to digitally organize their record collection. This app allows users to enter information about a record they own and digitally store the record in their collection. Users may also create a wish list for record they want to add in to their collection in the future. Users may update and delete records as needed.
+This app was made for music lovers that are looking for a place to digitally organize their record collection. This app allows users to enter information about a record they own and digitally store the record in their collection. Users may also create a wish list for a record they want to add to their collection in the future. Users may update and delete records as needed.
 
 
 Track That Track (c) Value Proposition:
